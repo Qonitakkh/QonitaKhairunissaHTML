@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+}
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-color: black;
+}
+
+/* header */
+.header-title {
+  font-weight: 700;
+  font-size: 24px;
+}
+.button-text {
+  font-size: 14px;
+  font-weight: 700;
+}
+/* header Styling */
+.header {
+  width: 100%;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  color:lightcoral;
+}
+
+/* button styling */
+a.button {
+  padding: 8px 16px;
+  border: 3px solid lightcoral;
+  border-radius: 50px;
+  color:lightcoral;
+  text-decoration: none;
+  width: fit-content;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+a.button:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  cursor: pointer;
+}
+
+/* main layout */
+#main-content {
+  margin: 225px 425px;
+  display: flex;
+  flex-direction: column;
+  gap: 96px;
+  background-color: black;
+}
+/* figure section */
+#figure-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: black;
+}
+#figure-section-image-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex-basis: 50%;
+  background-color: black;
+}
+.figure-section-image {
+  width: 100%;
+  height: auto;
+}
+.image-caption {
+  font-size: 14px;
+  font-weight: 500;
+  color:lightcoral;
+}
+#figure-section-text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  flex-basis: 50%;
+}
+.main-title {
+  font-size: 40px;
+  font-weight: 700;
+  color:lightcoral;
+}
+.body-text {
+  font-size: 16px;
+  font-weight: 400;
+  color:lightcoral;
+}
+
+/* footer styling */
+#footer {
+  width: 100%;
+  display: flex;
+  padding: 30px 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  background-color: lightcoral;
+}
+/* link styling */
+a.icon {
+  text-decoration: none;
+  color: lightcoral
+}
+a.icon:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
